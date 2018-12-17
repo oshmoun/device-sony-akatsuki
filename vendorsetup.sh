@@ -14,7 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo aosp_h8416-eng
-add_lunch_combo aosp_h8416-userdebug
-add_lunch_combo aosp_h9436-eng
-add_lunch_combo aosp_h9436-userdebug
+add_lunch_combo omni_akatsuki-userdebug

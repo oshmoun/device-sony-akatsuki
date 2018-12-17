@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/tama/PlatformConfig.mk
+include device/sony/tama-common/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := unknown
 ifneq (,$(filter %h8416,$(TARGET_PRODUCT)))
@@ -45,5 +45,3 @@ BOARD_PREBUILT_DTBOIMAGE := kernel/sony/msm-4.9/common-kernel/dtbo-akatsuki.img
 else
 TARGET_NEEDS_DTBOIMAGE := true
 endif
-
-TARGET_DEVICE_NO_FPC := true
